@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@layer components{
+    .sec{
+@apply w-auto flex  justify-center items-center gap-4 flex-wrap;
+
+    }
+    .btn{
+        @apply size-20 flex justify-center items-center backdrop-blur-xs  rounded-2xl text-5xl border border-gray-500 
+        text-white hover:backdrop-blur-none hover:border-amber-400 active:scale-125 cursor-pointer active:border-4 active:border-amber-500 active:shadow-2xl active:shadow-orange-400 transition-transform ;
+    }
+    .sk{
+        @apply scale-125  border-4 border-amber-500 shadow-2xl shadow-orange-400 transition-transform backdrop-blur-none;
+    }
+} 
+
+
+
