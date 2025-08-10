@@ -12,9 +12,18 @@ function rang(keycode){
     },100)
 }
 
-window.addEventListener("keydown",(e)=>{
-    rang(e.keyCode);
-})
+window.addEventListener("keydown", (e) => {
+    let f=e.key.toUpperCase();
+    // Get ASCII value for single-character keys
+    if (f.length === 1) {
+        let ascii = f.charCodeAt(0);
+        rang(ascii);
+       console.log(f);
+       console.log(e.key);
+        
+        
+    }
+});
 
 let btn = document.querySelectorAll(".btn");
 btn.forEach((e)=>{

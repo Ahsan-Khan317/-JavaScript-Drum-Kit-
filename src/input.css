@@ -9,7 +9,8 @@
         text-white hover:backdrop-blur-none hover:border-amber-400 active:scale-125 cursor-pointer active:border-4 active:border-amber-500 active:shadow-2xl active:shadow-orange-400 transition-transform ;
     }
     .sk{
-        @apply scale-125  border-4 border-amber-500 shadow-2xl shadow-orange-400 transition-transform backdrop-blur-none;
+        @apply scale-125  border-4 border-amber-500 shadow-2xl shadow-orange-400 transition-transform
+         backdrop-blur-none;
     }
 } 
 
